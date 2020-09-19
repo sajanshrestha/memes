@@ -107,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				A1CC440D25152E0E003CEDE8 /* FurFriendApp.swift */,
+				A178E3EB25165C6E00A6C51F /* Authentication.swift */,
 				A1CC445E251532DD003CEDE8 /* LoginView.swift */,
 				A178E3EE25165CD300A6C51F /* SignUpView.swift */,
 				A1CC4469251532EE003CEDE8 /* MainView.swift */,
@@ -122,7 +123,6 @@
 				A1CC441625152E0F003CEDE8 /* Info.plist */,
 				A1CC447A251532F7003CEDE8 /* GoogleService-Info.plist */,
 				A1CC441325152E0F003CEDE8 /* Preview Content */,
-				A178E3EB25165C6E00A6C51F /* Authentication.swift */,
 			);
 			path = FurFriend;
 			sourceTree = "<group>";
