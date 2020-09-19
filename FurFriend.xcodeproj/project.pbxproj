@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32EDA6B8F4302FAED7CB965E /* Pods_FurFriend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56082984D74E8EB998119C2 /* Pods_FurFriend.framework */; };
+		A178E3E925165BD600A6C51F /* View + Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178E3E825165BD600A6C51F /* View + Modifiers.swift */; };
+		A178E3EC25165C6E00A6C51F /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178E3EB25165C6E00A6C51F /* Authentication.swift */; };
+		A178E3EF25165CD300A6C51F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178E3EE25165CD300A6C51F /* SignUpView.swift */; };
+		A178E3F825166E8300A6C51F /* Date + DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178E3F725166E8300A6C51F /* Date + DateFormatter.swift */; };
+		A1CC440E25152E0E003CEDE8 /* FurFriendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC440D25152E0E003CEDE8 /* FurFriendApp.swift */; };
+		A1CC441225152E0F003CEDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CC441125152E0F003CEDE8 /* Assets.xcassets */; };
+		A1CC441525152E0F003CEDE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CC441425152E0F003CEDE8 /* Preview Assets.xcassets */; };
+		A1CC445F251532DD003CEDE8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC445E251532DD003CEDE8 /* LoginView.swift */; };
+		A1CC446E251532EE003CEDE8 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC4462251532EE003CEDE8 /* CreateView.swift */; };
+		A1CC446F251532EE003CEDE8 /* MemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC4463251532EE003CEDE8 /* MemesView.swift */; };
+		A1CC4470251532EE003CEDE8 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC4464251532EE003CEDE8 /* Response.swift */; };
+		A1CC4472251532EE003CEDE8 /* MemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC4466251532EE003CEDE8 /* MemeModel.swift */; };
+		A1CC4473251532EE003CEDE8 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC4467251532EE003CEDE8 /* Service.swift */; };
+		A1CC4475251532EE003CEDE8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC4469251532EE003CEDE8 /* MainView.swift */; };
+		A1CC4477251532EE003CEDE8 /* CreateMemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC446B251532EE003CEDE8 /* CreateMemeView.swift */; };
+		A1CC447B251532F7003CEDE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1CC447A251532F7003CEDE8 /* GoogleService-Info.plist */; };
+		A1CC448025153300003CEDE8 /* JsonDecoder + decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC447E25153300003CEDE8 /* JsonDecoder + decode.swift */; };
+		A1CC448125153300003CEDE8 /* Array + Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC447F25153300003CEDE8 /* Array + Identifiable.swift */; };
+		A1CC449A25153E2C003CEDE8 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CC449925153E2C003CEDE8 /* ImageLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04E502ACD58F7E9BB41E3473 /* Pods-FurFriend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FurFriend.debug.xcconfig"; path = "Target Support Files/Pods-FurFriend/Pods-FurFriend.debug.xcconfig"; sourceTree = "<group>"; };
+		A178E3E825165BD600A6C51F /* View + Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Modifiers.swift"; sourceTree = "<group>"; };
+		A178E3EB25165C6E00A6C51F /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		A178E3EE25165CD300A6C51F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A178E3F725166E8300A6C51F /* Date + DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + DateFormatter.swift"; sourceTree = "<group>"; };
+		A1CC440A25152E0E003CEDE8 /* FurFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CC440D25152E0E003CEDE8 /* FurFriendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurFriendApp.swift; sourceTree = "<group>"; };
+		A1CC441125152E0F003CEDE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1CC441425152E0F003CEDE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1CC441625152E0F003CEDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1CC445E251532DD003CEDE8 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A1CC4462251532EE003CEDE8 /* CreateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		A1CC4463251532EE003CEDE8 /* MemesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemesView.swift; sourceTree = "<group>"; };
+		A1CC4464251532EE003CEDE8 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		A1CC4466251532EE003CEDE8 /* MemeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeModel.swift; sourceTree = "<group>"; };
+		A1CC4467251532EE003CEDE8 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A1CC4469251532EE003CEDE8 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A1CC446B251532EE003CEDE8 /* CreateMemeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMemeView.swift; sourceTree = "<group>"; };
+		A1CC447A251532F7003CEDE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A1CC447E25153300003CEDE8 /* JsonDecoder + decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JsonDecoder + decode.swift"; sourceTree = "<group>"; };
+		A1CC447F25153300003CEDE8 /* Array + Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array + Identifiable.swift"; sourceTree = "<group>"; };
+		A1CC449925153E2C003CEDE8 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		A4D4B4C04FDB39E7A34C2F9D /* Pods-FurFriend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FurFriend.release.xcconfig"; path = "Target Support Files/Pods-FurFriend/Pods-FurFriend.release.xcconfig"; sourceTree = "<group>"; };
+		C56082984D74E8EB998119C2 /* Pods_FurFriend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FurFriend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1CC440725152E0E003CEDE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EDA6B8F4302FAED7CB965E /* Pods_FurFriend.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5528938231AFBB93B231E3A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04E502ACD58F7E9BB41E3473 /* Pods-FurFriend.debug.xcconfig */,
+				A4D4B4C04FDB39E7A34C2F9D /* Pods-FurFriend.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		738321594AB97EEBC72F5A89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C56082984D74E8EB998119C2 /* Pods_FurFriend.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1CC440125152E0E003CEDE8 = {
+			isa = PBXGroup;
+			children = (
+				A1CC440C25152E0E003CEDE8 /* FurFriend */,
+				A1CC440B25152E0E003CEDE8 /* Products */,
+				5528938231AFBB93B231E3A9 /* Pods */,
+				738321594AB97EEBC72F5A89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1CC440B25152E0E003CEDE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1CC440A25152E0E003CEDE8 /* FurFriend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1CC440C25152E0E003CEDE8 /* FurFriend */ = {
+			isa = PBXGroup;
+			children = (
+				A1CC440D25152E0E003CEDE8 /* FurFriendApp.swift */,
+				A1CC445E251532DD003CEDE8 /* LoginView.swift */,
+				A178E3EE25165CD300A6C51F /* SignUpView.swift */,
+				A1CC4469251532EE003CEDE8 /* MainView.swift */,
+				A1CC4463251532EE003CEDE8 /* MemesView.swift */,
+				A1CC4462251532EE003CEDE8 /* CreateView.swift */,
+				A1CC446B251532EE003CEDE8 /* CreateMemeView.swift */,
+				A1CC4466251532EE003CEDE8 /* MemeModel.swift */,
+				A1CC449925153E2C003CEDE8 /* ImageLoader.swift */,
+				A1CC4464251532EE003CEDE8 /* Response.swift */,
+				A1CC4467251532EE003CEDE8 /* Service.swift */,
+				A1CC447D25153300003CEDE8 /* Extensions */,
+				A1CC441125152E0F003CEDE8 /* Assets.xcassets */,
+				A1CC441625152E0F003CEDE8 /* Info.plist */,
+				A1CC447A251532F7003CEDE8 /* GoogleService-Info.plist */,
+				A1CC441325152E0F003CEDE8 /* Preview Content */,
+				A178E3EB25165C6E00A6C51F /* Authentication.swift */,
+			);
+			path = FurFriend;
+			sourceTree = "<group>";
+		};
+		A1CC441325152E0F003CEDE8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1CC441425152E0F003CEDE8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1CC447D25153300003CEDE8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1CC447E25153300003CEDE8 /* JsonDecoder + decode.swift */,
+				A1CC447F25153300003CEDE8 /* Array + Identifiable.swift */,
+				A178E3E825165BD600A6C51F /* View + Modifiers.swift */,
+				A178E3F725166E8300A6C51F /* Date + DateFormatter.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1CC440925152E0E003CEDE8 /* FurFriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1CC441925152E0F003CEDE8 /* Build configuration list for PBXNativeTarget "FurFriend" */;
+			buildPhases = (
+				1440E274138C368914865279 /* [CP] Check Pods Manifest.lock */,
+				A1CC440625152E0E003CEDE8 /* Sources */,
+				A1CC440725152E0E003CEDE8 /* Frameworks */,
+				A1CC440825152E0E003CEDE8 /* Resources */,
+				8DE903942A54AAD2EEA1961E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FurFriend;
+			productName = FurFriend;
+			productReference = A1CC440A25152E0E003CEDE8 /* FurFriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1CC440225152E0E003CEDE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A1CC440925152E0E003CEDE8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = A1CC440525152E0E003CEDE8 /* Build configuration list for PBXProject "FurFriend" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1CC440125152E0E003CEDE8;
+			productRefGroup = A1CC440B25152E0E003CEDE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1CC440925152E0E003CEDE8 /* FurFriend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1CC440825152E0E003CEDE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CC441525152E0F003CEDE8 /* Preview Assets.xcassets in Resources */,
+				A1CC441225152E0F003CEDE8 /* Assets.xcassets in Resources */,
+				A1CC447B251532F7003CEDE8 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1440E274138C368914865279 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FurFriend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE903942A54AAD2EEA1961E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FurFriend/Pods-FurFriend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FurFriend/Pods-FurFriend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FurFriend/Pods-FurFriend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1CC440625152E0E003CEDE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A178E3F825166E8300A6C51F /* Date + DateFormatter.swift in Sources */,
+				A1CC4477251532EE003CEDE8 /* CreateMemeView.swift in Sources */,
+				A1CC445F251532DD003CEDE8 /* LoginView.swift in Sources */,
+				A1CC446F251532EE003CEDE8 /* MemesView.swift in Sources */,
+				A1CC446E251532EE003CEDE8 /* CreateView.swift in Sources */,
+				A1CC4472251532EE003CEDE8 /* MemeModel.swift in Sources */,
+				A1CC448025153300003CEDE8 /* JsonDecoder + decode.swift in Sources */,
+				A1CC4473251532EE003CEDE8 /* Service.swift in Sources */,
+				A178E3E925165BD600A6C51F /* View + Modifiers.swift in Sources */,
+				A178E3EC25165C6E00A6C51F /* Authentication.swift in Sources */,
+				A1CC449A25153E2C003CEDE8 /* ImageLoader.swift in Sources */,
+				A1CC4475251532EE003CEDE8 /* MainView.swift in Sources */,
+				A1CC4470251532EE003CEDE8 /* Response.swift in Sources */,
+				A178E3EF25165CD300A6C51F /* SignUpView.swift in Sources */,
+				A1CC440E25152E0E003CEDE8 /* FurFriendApp.swift in Sources */,
+				A1CC448125153300003CEDE8 /* Array + Identifiable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1CC441725152E0F003CEDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1CC441825152E0F003CEDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1CC441A25152E0F003CEDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E502ACD58F7E9BB41E3473 /* Pods-FurFriend.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FurFriend/Preview Content\"";
+				DEVELOPMENT_TEAM = 48AX4GN775;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FurFriend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sajan.FurFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1CC441B25152E0F003CEDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D4B4C04FDB39E7A34C2F9D /* Pods-FurFriend.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FurFriend/Preview Content\"";
+				DEVELOPMENT_TEAM = 48AX4GN775;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FurFriend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sajan.FurFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1CC440525152E0E003CEDE8 /* Build configuration list for PBXProject "FurFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CC441725152E0F003CEDE8 /* Debug */,
+				A1CC441825152E0F003CEDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1CC441925152E0F003CEDE8 /* Build configuration list for PBXNativeTarget "FurFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CC441A25152E0F003CEDE8 /* Debug */,
+				A1CC441B25152E0F003CEDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1CC440225152E0E003CEDE8 /* Project object */;
+}
